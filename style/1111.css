@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {font-size: 12px;width:780px;height:auto;margin:0 auto; padding:0px;}
+div,ul,li {
+	padding:0px;
+	border:0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+li {list-style:none;}
+a {color:#222; text-decoration:none;}
+a:hover {color:#f30; text-decoration:underline;}
+.col2{
+	width:338px;
+	display:inline;
+	background:#FAFAFA;
+	height:275px;
+	overflow:hidden;
+	float:left;
+	border:1px #AACCEE solid;
+	padding:3px;
+}
+.focusPic{
+	clear:both;
+	width:338px;
+	text-align:left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.focusPic .pic{clear:both; height:200px; overflow:hidden;}
+.focusPic .pic img{border:1px solid #ccc;}
+.focusPic .pic ul{float:right; width:70px;}
+.focusPic .pic li{clear:both; text-align:right;}
+.focusPic .pic .active{ background:url(images/bg1.gif) 0 -454px no-repeat;}
+.focusPic .pic .active img{padding:0px; background:#fff; border:1px solid #1f3a87;}
+.focusPic .pic .active img:hover{border:1px solid #bc2931;}
+.focusPic h2{
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;
+	padding-top:5px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.focusPic .text{line-height:19px; padding:0px 3px 0 0; text-indent:1em;}
+.cDRed,a.cDRed:link,a.cDRed:visited{ color:#bc2931;}
+.left{ float: left;}
+</style>
+<script>
+function showFocus(num)
+{
+ for(var id = 1;id<=4;id++)
+ {
+  var fpid="focusPic"+id;
+  var fcid="focusContent"+id;
+  var fnid="focusnav"+id;
+  if(id==num){
+  	try{document.getElementById(fpid).style.display="block"}catch(e){};
+	try{document.getElementById(fcid).style.display="block"}catch(e){};
+	try{document.getElementById(fnid).className="active"}catch(e){};
+  }else{
+	try{document.getElementById(fpid).style.display="none"}catch(e){};
+	try{document.getElementById(fcid).style.display="none"}catch(e){};
+	try{document.getElementById(fnid).className=""}catch(e){};
+  }
+ }  
+}
+</script>}/* CSS Document */
+

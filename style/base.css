@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html,body{
+	font-size: 12px;
+	font-family: "serif";
+	color: #000;
+	background: #ffffff;
+}
+ul li,ol li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	blr:expression(this.onFocus=this.blur(););
+}
+img{
+	border: none;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	width: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom:1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}

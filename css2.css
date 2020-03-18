@@ -1,0 +1,88 @@
+/* CSS Document */
+/**wai**/
+*{ margin:0px; padding:0px; border:0px;}
+.wai{ width:1200px ;margin:0px auto; heigth:1500px;position:relative;}
+ul{ list-style-type:none;}
+a{ text-decoration:none;}
+/**header**/
+.header{ width:120px; height:82px;}
+.header li{ width:80px;}
+.a1{
+	position: absolute;
+	top: 50px;
+	right: 96px
+}
+.a2{ position:absolute; top:50px; right:10px}
+.a3{ font-size:12px; position:absolute; top:0px; left:20px;}
+.a4{ font-size:15px; position:absolute; top:-2px; left:20px;}
+/**nav**/
+.nav{ width:1200px; height:40px; background-color:#FFF;}
+.nav .b2{ width:1100px; height:40px; margin-left:40px; float:left; font-weight:900}
+.nav ul .b1{ width:220px; height:40px; float:left; text-align:center;}
+.nav ul .b1 a{ display:block; font-size:18px; color:#000; text-align:center; line-height:40px;}
+.nav ul .b1 a:hover{ background-color:#018d4e; color: #FFF;}
+.nav ul li ul li a:hover{ background-color: #018d4e; color:#FFF;}
+.nav ul li ul { display:none; position:absolute; top:120px;}
+.nav ul li:hover ul,li .over ul{ display:block}
+.nav ul li ul li{ width:220px; font-size:12px; border:#999 1px solid; background-color:#CCC; height:40px}
+.nav ul li ul li:hover{ background-color:#3F3; color: #FFF;}
+/**nav2**/
+.nav2{
+	width: 1200px;
+	height: 40px;
+	background-color: #093;
+	position: absolute;
+	top: 520px;
+	left: 1px;
+}
+.nav2 ul{
+	width: 1100px;
+	height: 40px;
+	margin-left: 60px;
+	background-color: #093;
+}
+.nav2 ul li{
+	width: 500px;
+	height: auto;
+	float: left;
+	color: #FFF;
+	margin-top: 8px;
+	padding-left: 50px;
+	float: left;
+	font-weight: 900;
+	background-color: #093;
+}
+/**guli**/
+#div h2{ font-size:16px; border:#999 solid 1px; text-indent:100px}
+#div{
+	width: 300px;
+	position: absolute;
+	top: 597px;
+	border: #999 1px solid;
+	left: 577px;
+}
+#div h3{ background:url(img/6.jpg) no-repeat 5px  #FFFFFF; font-size:16px; height:30px; line-height:30px; margin-left:30px}
+#div h3 a{ text-indent:50px; cursor:pointer; display:block; width:300px; display:block;}
+#div ul li li{ width:300px; height:30px; border:solid 1px #999999; line-height:30px; text-align:center;}
+#div h3.active{ background:url(img/7.jpg) no-repeat 5px  #FFFFFF; text-indent:20px;}
+#div ul ul{ display:none;}
+/**denglu**/
+.dl{
+	width: 299px;
+	position: absolute;
+	top: 596px;
+	left: 1000px;
+}
+.ok{color: green;border: 1px solid green;} 
+.error{color: red;border: 1px solid red;}  
+#code{ width:200px; border:#999 solid 1px; line-height:25px}
+#pwd{ width:200px; border:1px solid #999; line-height:25px; margin-top:20px}
+.d1{ width:50px; height:25px; margin-top:20px; margin-left:20px; border:#999 1px solid;}
+/**fotter**/
+.t1{ width:1200px; height:40px; background-color:#999; position:absolute; top:742px;}
+.t1 ul li{ width:220px; height:40px; text-align:center; line-height:40px; float:left; font-weight:900}
+#course{
+	widith:640px;
+	margin:auto;
+	text-align:left;
+}
